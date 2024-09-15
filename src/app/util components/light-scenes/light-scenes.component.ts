@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { LightScene } from './light-scene';
 
 @Component({
   selector: 'app-light-scenes',
@@ -9,32 +10,5 @@ import { Component } from '@angular/core';
   styleUrl: './light-scenes.component.scss'
 })
 export class LightScenesComponent {
-  items = [
-    {
-      scene: 'Scene 1',
-      event: 'Breakfast',
-      icon: '../../../assets/img/Wb incandescent.svg',
-      active : true
-    },
-    {
-      scene: 'Scene 2',
-      event: 'Lunch',
-      icon: '../../../assets/img/Wb incandescent2.svg',
-      active : false
-    },
-    {
-      scene: 'Scene 3',
-      event: 'Dinner',
-      icon: '../../../assets/img/Wb incandescent2.svg',
-      active : false
-    },
-    {
-      scene: 'Scene 1',
-      event: 'Lights OFF',
-      icon: '../../../assets/img/Wb incandescent2.svg',
-      active : false
-    },
-
-  ]
-
+  lightScenes = input.required<LightScene[]>()
 }
