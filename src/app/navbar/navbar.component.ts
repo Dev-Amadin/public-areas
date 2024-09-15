@@ -30,11 +30,11 @@ export class NavbarComponent {
     routerLink: 'dashboard',
     activeStyle: 'dashboard'
   },
-  {
-    logo: 'bbi bi-qr-code',
-    routerLink: 'dashboard',
-    activeStyle: 'dashboard'
-  },
+  // {
+  //   logo: 'bbi bi-qr-code',
+  //   routerLink: 'dashboard',
+  //   activeStyle: 'dashboard'
+  // },
  ]
 
 }
