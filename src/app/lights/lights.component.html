@@ -1,10 +1,10 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-8">
+    <div class="col-md-8 col-sm-6">
       <h1 class="mb-4">All Lights</h1>
       <div class="row border-end pe-5">
           @for(light of allLights; track $index){
-        <div class="col-4">
+        <div class="col-md-4 col-sm-6">
           <div
             class="align-items-center"
             [ngClass]="light.isOn ? 'sub-card-active' : 'sub-card'"
@@ -38,7 +38,7 @@
           }
       </div>
     </div>
-    <div class="col-4 ps-5">
+    <div class="col-md-4 col-sm-6 ps-5">
       <h1 class="mb-4">Scenes</h1>
       @for(scene of scenes; track $index){
       <div

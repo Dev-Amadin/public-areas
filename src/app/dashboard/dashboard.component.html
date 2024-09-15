@@ -1,28 +1,25 @@
-<div class="container-fluid bg">
-  <div class="row">
+<div class="container-fluid overflow-hidden">
+  <div class="row g-3">
     <div class="col-md-7 col-sm-12">
-      <app-display [displays]="displayService.displays"></app-display>
+      <display-component [displays]="displayService.displays"/>
     </div>
     <div class="col-md-5 col-sm-12">
-      <app-background-music></app-background-music>
+      <background-music-component/>
     </div>
-  </div>
-  <div class="row mt-2">
     @if(isLight){
-        <div class="col-md-3 col-sm-12 cursor" (click)="toggleItems()">
-            <app-light-scenes [lightScenes]="lightSceneService.lightScenes"></app-light-scenes>
-          </div>
-    }
-    
-   
-    <div class="col-md-9 col-sm-12">
-     <app-audio [items]="audioService.audios"></app-audio>
-    </div>
-    @if(!isLight){
-        <div class="col-md-3 col-sm-12 text-center align-content-center cursor" (click)="toggleItems()">
-            <img src="../../assets/img/KCP Network Logo_White Circle_Portrait_Digital 1.png" alt="">
-          </div>
-    }
-   
+      <div class="col-md-3 col-sm-12 cursor" (click)="toggleItems()">
+          <light-scenes-component [lightScenes]="lightSceneService.lightScenes"/>
+        </div>
+  }
+  
+ 
+  <div class="col-md-9 col-sm-12">
+   <audio-component [items]="audioService.audios"/>
+  </div>
+  @if(!isLight){
+      <div class="col-md-3 col-sm-12 text-center align-content-center cursor" (click)="toggleItems()">
+          <img src="../../assets/img/kcp-logo.png" alt="">
+        </div>
+  }
   </div>
 </div>

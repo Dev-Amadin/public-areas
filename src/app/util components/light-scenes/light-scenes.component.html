@@ -1,15 +1,14 @@
 <div class="card">
   <div class="card-body">
     <h2 class="card-title mb-4">Lighting Scenes</h2>
-    @for(item of lightScenes(); track $index){
-    <div class="sub-card">
-        <div class="col-2">
-            <img [src]="item.icon" alt="..." />
+    <div class="text-center">
+      @for(item of lightScenes(); track $index){
+        <div class="sub-card text-center">
+          <img [src]="item.icon" alt="..." class="ps-4" />
+          <p class="fs-4" [ngClass]="item.isOn ? 'text-yellow':'text-normal'">{{item.scene}} - {{item.event}}</p>
         </div>
-        <div class="col-10 fs-4" [ngClass]="item.isOn ? 'text-yellow':'text-normal'">
-            <p>{{item.scene}} - {{item.event}}</p>
-        </div>
+        }
     </div>
-    }
+   
   </div>
 </div>

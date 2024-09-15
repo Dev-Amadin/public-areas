@@ -2,7 +2,7 @@ import { Component, input } from '@angular/core';
 import { Display } from './display';
 
 @Component({
-  selector: 'app-display',
+  selector: 'display-component',
   standalone: true,
   imports: [],
   templateUrl: './display.component.html',

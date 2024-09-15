@@ -3,7 +3,7 @@ import { Component, input } from '@angular/core';
 import { LightScene } from './light-scene';
 
 @Component({
-  selector: 'app-light-scenes',
+  selector: 'light-scenes-component',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './light-scenes.component.html',

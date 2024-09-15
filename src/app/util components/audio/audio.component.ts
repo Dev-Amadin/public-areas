@@ -3,7 +3,7 @@ import { Component, input } from '@angular/core';
 import { Audio } from './audio';
 
 @Component({
-  selector: 'app-audio',
+  selector: 'audio-component',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './audio.component.html',

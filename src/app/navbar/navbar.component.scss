@@ -16,6 +16,7 @@
     background: #383838;
     text-align: center;
     width: 6rem;
+    height: 5rem;
     min-width: 3rem;
     border-radius: 20px;
     padding: 0.313rem;
@@ -27,11 +28,15 @@
 .qr {
     background: transparent;
     width: 6rem;
-    height: 6rem;
+    height: 5rem;
     min-width: 3rem;
     padding: 0.313rem;
     cursor: pointer;
     border: none;
+}
+
+img{
+    height: 5rem;
 }
 
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-background-music',
+  selector: 'background-music-component',
   standalone: true,
   imports: [],
   templateUrl: './background-music.component.html',
