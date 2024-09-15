@@ -1,0 +1,53 @@
+.sub-card {
+    background-color: #F1ECFF;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #977D95;
+}
+
+.logo {
+    background: #BF40BF;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.313rem;
+    font-size: 30px;
+    border: none;
+    color: #fff;
+}
+
+.logo-alt {
+    background: #F7E1F5;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.313rem;
+    font-size: 30px;
+    border: none;
+    color: #BF40BF;
+}
+
+.btn-primary{
+    background-color: #BF40BF;
+    border: none;
+    height: 43px;
+    border-radius: 15px;
+}
+
+.progress{
+    height: 50px;
+    --bs-progress-bg: #F7E1F5;
+    --bs-progress-bar-bg: #BF40BF;
+    border-radius: 15px;
+}
+
+.progress-bar{
+    border-radius: 15px;
+}
+
+.progress-disabled{
+    --bs-progress-bar-bg: #969696;
+    --bs-progress-bg: #E4E4E4;
+}

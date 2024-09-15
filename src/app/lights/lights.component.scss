@@ -1,0 +1,66 @@
+.sub-card {
+    justify-content: left;
+    background-color: #969696;
+    border-radius: 10px;
+    padding: 0.56rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.logo {
+    background: #FFFFFF;
+    opacity: 50%;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.313rem;
+    font-size: 30px;
+    border: none;
+    color: #666666;
+}
+
+.sub-card-active{
+    background-color: #FFF1E2;
+    color: #1D1261;
+    justify-content: left;
+    border-radius: 10px;
+    padding: 0.56rem;
+    margin-bottom: 10px;
+}
+
+.logo-active{
+    background: #FF9101;
+    color: #FFF1E2;
+    opacity: 50%;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.313rem;
+    font-size: 30px;
+    border: none;
+}
+
+.progress{
+    height: 50px;
+    --bs-progress-bg: #FFDAB3;
+    --bs-progress-bar-bg: #FFD601;
+    border-radius: 15px;
+}
+
+.progress-off{
+    height: 50px;
+    --bs-progress-bg: #E4E4E4;
+    --bs-progress-bar-bg: #FFD601;
+    border-radius: 15px;
+}
+
+.progress-bar{
+    border-radius: 15px;
+}
+
+.vl {
+    border-left: 6px solid #fff;
+    height: 100%;
+  }

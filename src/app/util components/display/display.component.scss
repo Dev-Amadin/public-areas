@@ -1,0 +1,27 @@
+.card {
+    color: #fff;
+    background-color: #CDD2D6;
+    height: 50vh;
+}
+
+.sub-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #E8EFF8;
+    border-radius: 10px;
+    padding: 1rem;
+    color: #4F84B3;
+}
+
+.logo {
+    background: #4F84B3;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}

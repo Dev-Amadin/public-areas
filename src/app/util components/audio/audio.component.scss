@@ -1,0 +1,41 @@
+.card {
+    color: #fff;
+    background-color: #8095A8;
+}
+
+.sub-card {
+    // display: flex;
+    // justify-content: space-between;
+    background-color: #F1ECFF;
+    border-radius: 5px;
+    padding: 1rem;
+    color: #977D95;
+}
+
+.logo {
+    background: #524889;
+    text-align: center;
+    width: 5rem;
+    min-width: 3rem;
+    border-radius: 50%;
+    padding: 0.313rem;
+    font-size: 30px;
+    border: none;
+    color: #fff;
+}
+
+.btn-primary{
+    background-color: #524889;
+    border: none;
+    height: 43px;
+}
+
+.progress{
+    height: 30px;
+    --bs-progress-bg: #D6CFFF;
+    --bs-progress-bar-bg: #4C4189;
+}
+
+.progress-disabled{
+    --bs-progress-bar-bg: #969696;
+}

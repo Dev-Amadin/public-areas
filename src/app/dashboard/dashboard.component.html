@@ -1,0 +1,28 @@
+<div class="container-fluid bg">
+  <div class="row">
+    <div class="col-7">
+      <app-display></app-display>
+    </div>
+    <div class="col-md-5">
+      <app-background-music></app-background-music>
+    </div>
+  </div>
+  <div class="row mt-2">
+    @if(isLight){
+        <div class="col-3 cursor" (click)="toggleItems()">
+            <app-light-scenes></app-light-scenes>
+          </div>
+    }
+    
+   
+    <div class="col-md-9">
+     <app-audio></app-audio>
+    </div>
+    @if(!isLight){
+        <div class="col-3 text-center align-content-center cursor" (click)="toggleItems()">
+            <img src="../../assets/img/KCP Network Logo_White Circle_Portrait_Digital 1.png" alt="">
+          </div>
+    }
+   
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-body">
+    <h2 class="card-title mb-4">Lighting Scenes</h2>
+    @for(item of items; track $index){
+    <div class="sub-card">
+        <div class="col-2">
+            <img [src]="item.icon" alt="..." />
+        </div>
+        <div class="col-10 fs-4" [ngClass]="item.active ? 'text-yellow':'text-normal'">
+            <p>{{item.scene}} - {{item.event}}</p>
+        </div>
+    </div>
+    }
+  </div>
+</div>

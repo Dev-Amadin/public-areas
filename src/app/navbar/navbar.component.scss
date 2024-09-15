@@ -1,0 +1,49 @@
+.navbar {
+    transition: all 0.5s ease;
+    z-index: 1;
+    width: 100%;
+    height: 10vh;
+    align-content: center;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+}
+
+.logo {
+    background: #383838;
+    text-align: center;
+    width: 6rem;
+    min-width: 3rem;
+    border-radius: 0.313rem;
+    padding: 0.313rem;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    border: none;
+}
+
+.logo:hover {
+    background: #969696;
+}
+
+.nav-link {
+    border-radius: 0.313rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.dashboard-active {
+    background-color: #969696;
+}
+
+.lights-active {
+    background-color: #FF9101;
+}
+
+.audio-active {
+ 
+    background-color: #BF40BF;
+}

@@ -1,0 +1,67 @@
+<div class="container-fluid">
+    <h1 class="mb-4">Audio</h1>
+    <div class="row g-4">
+        @for(item of items; track $index){
+        <div class="col-6">
+          <div class="sub-card">
+              <div class="row g-2">
+                  <div class="col-8">
+                    <div class="d-flex align-items-center">
+                      <div class="logo">
+                        <i class="bi bi-music-note"></i>
+                      </div>
+                      <div class="ms-3">
+                        <h4 class="mb-0 mt-2">{{ item.location }}</h4>
+                        @if(item.muted){
+                        <p>muted</p>
+                        }@else {
+                        <p>{{ item.volume }}</p>
+                        }
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-4 d-grid">
+                    <button type="button" class="btn btn-primary shadow-lg">
+                      {{item.action}}
+                    </button>
+                  </div>
+                </div>
+                <div class="row g-2">
+                  <div class="col-10">
+                    @if(item.muted){
+                        <div
+                      class="progress progress-disabled "
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar" [ngStyle]="{width: item.volume}"></div>
+                    </div>
+                        }@else {
+                            <div
+                            class="progress"
+                            role="progressbar"
+                            aria-label="Example 20px high"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                          >
+                            <div class="progress-bar" [ngStyle]="{width: item.volume}"></div>
+                          </div>
+                        }
+                
+                  </div>
+                  <div class="col-2">
+                    <div class="ms-5" [ngClass]="item.muted ? 'logo':'logo-alt'">
+                      <i [class]="item.icon"></i>
+                    </div>
+                  </div>
+                </div>
+          </div>
+         
+        </div>
+        }
+      </div>
+</div>
