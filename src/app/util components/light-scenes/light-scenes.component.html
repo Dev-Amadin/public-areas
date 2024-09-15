@@ -3,12 +3,17 @@
     <h2 class="card-title mb-4">Lighting Scenes</h2>
     <div class="text-center">
       @for(item of lightScenes(); track $index){
-        <div class="sub-card text-center">
-          <img [src]="item.icon" alt="..." class="ps-4" />
-          <p class="fs-4" [ngClass]="item.isOn ? 'text-yellow':'text-normal'">{{item.scene}} - {{item.event}}</p>
+      <div class="sub-card ">
+        <div class="d-flex align-items-center">
+          <div class="logo">
+            <img [src]="item.icon" alt="..." />
+          </div>
+          <div class="ms-3" [ngClass]="item.isOn ? 'text-yellow' : 'text-normal'">
+            <h3 class="mt-2"> {{ item.scene }} - {{ item.event }}</h3>
+          </div>
         </div>
-        }
+      </div>
+      }
     </div>
-   
   </div>
 </div>

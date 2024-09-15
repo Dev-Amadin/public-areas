@@ -1,7 +1,6 @@
 .card {
     color: #fff;
-    background-color: #CDD2D6;
-    height: 50vh;
+    background-color: darken($color: #fff, $amount: 52%) ;
 }
 
 .sub-card {

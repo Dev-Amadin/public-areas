@@ -47,11 +47,11 @@
       >
       <div class="d-flex">
 
-          <div class="" [ngClass]="scene.isActive ? 'logo-active' : 'logo'">
+          <div [ngClass]="scene.isActive ? 'logo-active' : 'logo'">
             <i class="bi bi-lightbulb-fill"></i>
           </div>
           <div class="ms-3">
-            <h5 class="mb-0 mt-2">{{ scene.scene }}</h5>
+            <h4 class="mb-0 mt-3">{{ scene.scene }}</h4>
             <p>{{ scene.state }}</p>
           </div>
       </div>
