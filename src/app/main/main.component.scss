@@ -1,6 +1,5 @@
-
 .body {
-    height: 90vh;
+    height: calc(100vh - 10vh);
     width: 100%;
     margin-bottom: 10vh;
     z-index: 0;
@@ -10,30 +9,4 @@
     background: #383838;
     padding: 1rem;
     color: #fff;
-  }
-.logo-container {
-    display: flex;
-    align-items: center;
-    width: 40%;
-    margin: auto;
 }
-
-.logo {
-    background: #383838;
-    text-align: center;
-    width: 6rem;
-    min-width: 3rem;
-    border-radius: 0.313rem;
-    padding: 0.313rem;
-    font-size: 30px;
-    font-weight: 900;
-    cursor: pointer;
-    border: none;
-}
-
-.logo:hover {
-    background: #969696;
-}
-
-
- 

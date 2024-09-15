@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { Audio } from './audio';
 
 @Component({
   selector: 'app-audio',
@@ -9,35 +10,8 @@ import { Component } from '@angular/core';
   styleUrl: './audio.component.scss'
 })
 export class AudioComponent {
-  items = [
-    {
-      location: 'Restaurant - Windows',
-      volume: '60%',
-      action : 'Music',
-      icon: 'bi bi-volume-up-fill',
-      muted: false
-    },
-    {
-      location: 'Restaurant - Entrance',
-      volume: '40%',
-      action : 'Digital Signal',
-      icon: 'bi bi-volume-mute-fill',
-      muted: true
-    },
-    {
-      location: 'Restaurant - Dining Area',
-      volume: '70%',
-      action : 'Music',
-      icon: 'bi bi-volume-up-fill',
-      muted: false
-    },
-    {
-      location: 'Lifts Lobby',
-      volume: '80%',
-      action : 'Music',
-      icon: 'bi bi-volume-up-fill',
-      muted: false
-    },
-  ]
+  items = input.required<Audio[]>();
+
+  
 
 }
