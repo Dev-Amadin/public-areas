@@ -1,11 +1,9 @@
 .body {
     width: 100%;
     z-index: 0;
-    position: absolute;
-    top: 0;
-    transition: all 0.5s ease;
     background: #383838;
     padding: 1rem;
     color: #fff;
     overflow-y: auto;
+    min-height: 100vh;
 }
