@@ -16,25 +16,20 @@ export class NavbarComponent {
     activeStyle: 'dashboard-active'
   },
   {
-    logo: 'bi bi-lightbulb-fill',
+    logo: 'bi bi-brightness-low-fill',
     routerLink: 'lights',
     activeStyle: 'lights-active'
   },
   {
-    logo: 'bi bi-music-note',
+    logo: 'bi bi-speaker-fill',
     routerLink: 'music',
     activeStyle: 'audio-active'
   },
   {
-    logo: 'bi bi-tv',
-    routerLink: 'dashboard',
-    activeStyle: 'dashboard'
-  },
-  // {
-  //   logo: 'bbi bi-qr-code',
-  //   routerLink: 'dashboard',
-  //   activeStyle: 'dashboard'
-  // },
+    logo: 'bi bi-tv-fill',
+    routerLink: 'screens',
+    activeStyle: 'displays-active'
+  }
  ]
 
 }

@@ -1,0 +1,32 @@
+<div class="bg">
+  <div class="half-circle"></div>
+  <h1 class="mb-5">Display</h1>
+  <div class="card">
+    <div class="row g-5">
+        @for(display of displayService.displays; track $index){
+
+            <div class="col-md-4 col-sm-6">
+              <div class="sub-card" [ngClass]="display.isActive? 'sub-card-active':''">
+                  <div class="row align-items-center">
+                      <div class="col">
+                          <div class="icon">
+                              <i [class]="display.icon"></i>
+                            </div>
+                      </div>
+                      <div class="col">
+                          <div class="form-check form-switch float-end">
+                              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" [checked]="display.isActive">
+                            </div>
+                      </div>
+                  </div>
+                  <div class="mt-5">
+                      <h5>{{display.title}}</h5>
+                      <p class="fs-5 mb-0">{{display.subText}}</p>
+                  </div>
+                 
+              </div>
+            </div>
+        }
+    </div>
+  </div>
+</div>

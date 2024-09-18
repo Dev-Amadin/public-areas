@@ -1,29 +1,30 @@
 <nav
-  class="navbar fixed-bottom bg-dark"
+  class="navbar fixed-bottom"
   data-bs-theme="dark"
 >
   <div class="container-fluid">
-    <div class="my-2">
-      <img
+      <div class="col-md-4">
+        <img
         src="../../assets/img/conqora-logo.svg"
         alt=""
       />
-    </div>
-    <div class="logo-container">
-      @for(item of logos; track $index){
-      <button class="logo mx-2">
-        <a
-          class="nav-link"
-          [routerLink]="item.routerLink"
-          [routerLinkActive]="item.activeStyle"
-          [routerLinkActiveOptions]="{ exact: true }"
-          ><i [class]="item.logo"></i>
-        </a>
-      </button>
-      }
-      <button class="qr">
-        <img src="../../assets/img/qr-code.svg" alt="">
-      </button>
-    </div>
+      </div>
+      <div class="col-md-4 d-flex gap-4">
+        @for(item of logos; track $index){
+          <a
+              [routerLink]="item.routerLink"
+              [routerLinkActive]="item.activeStyle"
+              [routerLinkActiveOptions]="{ exact: true }"
+              ><i [class]="item.logo"></i>
+            </a>
+          }
+          <a class="qr">
+            <i class="bi bi-qr-code"></i>
+          </a>
+      
+      </div>
+      <div class="col-md-4">
+        <img src="../../assets/img/kcp-logo.png" class="float-end" alt="">
+      </div>
   </div>
 </nav>

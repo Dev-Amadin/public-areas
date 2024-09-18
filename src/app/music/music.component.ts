@@ -19,49 +19,49 @@ export class MusicComponent {
     },
     {
       location: 'Lounge',
-      volume: '80%',
+      volume: '0%',
       action : 'Digital Signal',
       icon: 'bi bi-volume-mute-fill',
       muted: true
     },
     {
       location: 'Lounge',
-      volume: '80%',
+      volume: '0%',
       action : 'Digital Signal',
       icon: 'bi bi-volume-mute-fill',
       muted: true
     },
     {
       location: 'Terrance',
-      volume: '80%',
+      volume: '40%',
       action : 'Music',
       icon: 'bi bi-volume-up-fill',
       muted: false
     },
     {
       location: 'Terrance',
-      volume: '80%',
+      volume: '90%',
       action : 'Music',
       icon: 'bi bi-volume-up-fill',
       muted: false
     },
     {
       location: 'Lounge',
-      volume: '80%',
+      volume: '0%',
       action : 'Digital Signal',
       icon: 'bi bi-volume-mute-fill',
       muted: true
     },
     {
       location: 'Lounge',
-      volume: '80%',
+      volume: '0%',
       action : 'Digital Signal',
       icon: 'bi bi-volume-mute-fill',
       muted: true
     },
     {
       location: 'Terrance',
-      volume: '80%',
+      volume: '300%',
       action : 'Music',
       icon: 'bi bi-volume-up-fill',
       muted: false

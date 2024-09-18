@@ -3,6 +3,7 @@ import { MainComponent } from './main/main.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LightsComponent } from './lights/lights.component';
 import { MusicComponent } from './music/music.component';
+import { ScreensComponent } from './screens/screens.component';
 
 export const routes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
@@ -13,6 +14,7 @@ export const routes: Routes = [
       { path: 'dashboard', component: DashboardComponent },
       { path: 'music', component: MusicComponent },
       { path: 'lights', component: LightsComponent },
+      { path: 'screens', component: ScreensComponent },
     ],
   },
   { path: '**', redirectTo: 'dashboard' },

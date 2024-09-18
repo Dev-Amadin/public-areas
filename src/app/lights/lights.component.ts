@@ -56,94 +56,79 @@ export class LightsComponent {
   allLights = [
     {
       title: 'Light 1',
-      isOn: false,
-      range: '',
-      isRemove: false
-    },
-    {
-      title: 'Light 1',
-      isOn: false,
-      range: '',
-      isRemove: false
-    },
-    {
-      title: 'Light 1',
-      isOn: false,
-      range: '',
-      isRemove: false
+      isOn: true,
+      range: '50%',
     },
     {
       title: 'Light 1',
       isOn: true,
-      range: '',
-      isRemove: false
+      range: '20%',
     },
     {
       title: 'Light 1',
       isOn: false,
       range: '',
-      isRemove: false
     },
     {
       title: 'Light 1',
       isOn: true,
+      range: '60%',
+    },
+    {
+      title: 'Light 1',
+      isOn: false,
       range: '',
-      isRemove: false
+    },
+    {
+      title: 'Light 1',
+      isOn: true,
+      range: '90%',
     },
     {
       title: 'Light 2',
       isOn: true,
       range: '80%',
-      isRemove: false
     },
     {
       title: 'Light 2',
       isOn: false,
-      range: '0%',
-      isRemove: false
+      range: '',
     },
     {
       title: 'Light 1',
       isOn: false,
       range: '',
-      isRemove: false
     },
     {
       title: 'Light 2',
       isOn: true,
       range: '80%',
-      isRemove: false
     },
     {
       title: 'Light 2',
       isOn: true,
-      range: '80%',
-      isRemove: false
+      range: '20%',
     },
     {
       title: 'Light 1',
       isOn: true,
-      range: '',
-      isRemove: false
+      range: '90%',
     },
     
     {
       title: 'Light 2',
       isOn: false,
-      range: '0%',
-      isRemove: false
+      range: '',
     },
     {
       title: 'Light 2',
       isOn: false,
-      range: '0%',
-      isRemove: false
+      range: '',
     },
     {
       title: 'Light 1',
       isOn: false,
       range: '',
-      isRemove: false
     },
    
    
@@ -151,20 +136,17 @@ export class LightsComponent {
       title: 'Light 1',
       isOn: true,
       range: '',
-      isRemove: false
     },
    
     {
       title: 'Light 1',
       isOn: false,
       range: '',
-      isRemove: true
     },
     {
       title: 'Light 1',
       isOn: false,
       range: '',
-      isRemove: false
     },
     
   ]
