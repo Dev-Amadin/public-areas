@@ -1,47 +1,44 @@
 .card {
+    min-height: 30rem;
+    border-radius: 2rem;
+    background: rgba(182, 171, 109, 0.15);
+    padding: 2rem;
     color: #fff;
-    background-color: darken(#EADA87, 10%);
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.sub-card {
-    justify-content: left;
-    background-color: #E8EFF8;
-    border-radius: 10px;
-    padding: 0.56rem;
-    color: #1D1261;
-    margin-bottom: 10px;
-    box-shadow: 0 1rem 3rem rgba(#000, .175);
-}
-
-.logo {
-    text-align: center;
-    width: 5rem;
-    min-width: 3rem;
-    border-radius: 50%;
-    padding: 0.313rem;
-    font-size: 30px;
     border: none;
 }
 
-// .sub-card {
-//     display: inline-flex;
-//     align-items: center;
-//     height: 6rem;
-//     width: 30rem;
-//     background-color: #E8EFF8;
-//     border-radius: 10px;
-//     padding: 0.5rem;
-//     color: #1D1261;
-//     margin-bottom: 15px;
-//     box-shadow:    0 1rem 3rem rgba(#000, .175);;
-// }
-
-.text-yellow {
-    color: #D77100;
+.sub-card {
+    border-radius: 13.147px;
+    background: rgba(14, 14, 14, 0.32);
+    padding: 13.147px 16.903px;
+    color: #D2D2D2;
+    font-size: 1.56rem;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.text-normal {
-    color: #1D1261;
+.sub-card:hover {
+    border: 1px solid #FF9101;
+}
+
+.icon {
+    background: #543E1A;
+    text-align: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15.9px;
+    padding: 0.15rem;
+    font-size: 2.9rem;
+    color: #fff;
+}
+
+.progress {
+    height: 0.5rem;
+    --bs-progress-bg: #b6b6b618;
+    --bs-progress-bar-bg: #FF9101;
+    border-radius: 2rem;
+}
+
+.progress-bar {
+    border-radius: 1rem;
 }

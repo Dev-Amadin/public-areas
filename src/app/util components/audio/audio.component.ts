@@ -10,7 +10,7 @@ import { Audio } from './audio';
   styleUrl: './audio.component.scss'
 })
 export class AudioComponent {
-  items = input.required<Audio[]>();
+  audios = input.required<Audio[]>();
 
   
 

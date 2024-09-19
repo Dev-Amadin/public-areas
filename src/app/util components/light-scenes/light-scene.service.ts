@@ -10,25 +10,25 @@ export class LightSceneService {
     {
       scene: 'Scene 1',
       event: 'Breakfast',
-      icon: '../../../assets/img/light-on.svg',
+      brightness: '80%',
       isOn : true
     },
     {
       scene: 'Scene 2',
       event: 'Lunch',
-      icon: '../../../assets/img/light-off.svg',
+      brightness: '',
       isOn : false
     },
     {
       scene: 'Scene 3',
       event: 'Dinner',
-      icon: '../../../assets/img/light-off.svg',
+      brightness: '',
       isOn : false
     },
     {
       scene: 'Scene 1',
       event: 'Lights OFF',
-      icon: '../../../assets/img/light-off.svg',
+      brightness: '',
       isOn : false
     },
 

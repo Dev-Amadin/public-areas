@@ -1,6 +1,6 @@
 export interface LightScene {
     scene: string,
     event: string,
-    icon: string,
+    brightness:string,
     isOn : boolean
 }

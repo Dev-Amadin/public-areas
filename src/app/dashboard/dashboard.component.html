@@ -1,4 +1,6 @@
-<div class="container-fluid">
+
+
+<div class="bg overflow-auto">
   <div class="row g-3">
     <div class="col-md-7 col-sm-12">
       <display-component [displays]="displayService.displays"/>
@@ -6,20 +8,11 @@
     <div class="col-md-5 col-sm-12">
       <background-music-component/>
     </div>
-    @if(isLight){
-      <div class="col-md-3 col-sm-12 cursor" (click)="toggleItems()">
-          <light-scenes-component [lightScenes]="lightSceneService.lightScenes"/>
-        </div>
-  }
-  
- 
-  <div class="col-md-9 col-sm-12">
-   <audio-component [items]="audioService.audios"/>
-  </div>
-  @if(!isLight){
-      <div class="col-md-3 col-sm-12 text-center align-content-center cursor" (click)="toggleItems()">
-          <img src="../../assets/img/kcp-logo.png" alt="">
-        </div>
-  }
+    <div class="col-md-4 col-sm-12">
+      <light-scenes-component [lightScenes]="lightSceneService.lightScenes"/>
+    </div>
+    <div class="col-md-8 col-sm-12">
+      <audio-component [audios]="audioService.audios"/>
+     </div>
   </div>
 </div>

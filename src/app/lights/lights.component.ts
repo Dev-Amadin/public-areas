@@ -36,21 +36,6 @@ export class LightsComponent {
       state: 'Off',
       isActive: false
     },
-    {
-      scene:'Lighting Scene 6',
-      state: 'Off',
-      isActive: false
-    },
-    {
-      scene:'Lighting Scene 7',
-      state: 'Off',
-      isActive: false
-    },
-    {
-      scene:'Lighting Scene 8',
-      state: 'Off',
-      isActive: false
-    },
   ]
 
   allLights = [
@@ -91,60 +76,6 @@ export class LightsComponent {
     },
     {
       title: 'Light 2',
-      isOn: false,
-      range: '',
-    },
-    {
-      title: 'Light 1',
-      isOn: false,
-      range: '',
-    },
-    {
-      title: 'Light 2',
-      isOn: true,
-      range: '80%',
-    },
-    {
-      title: 'Light 2',
-      isOn: true,
-      range: '20%',
-    },
-    {
-      title: 'Light 1',
-      isOn: true,
-      range: '90%',
-    },
-    
-    {
-      title: 'Light 2',
-      isOn: false,
-      range: '',
-    },
-    {
-      title: 'Light 2',
-      isOn: false,
-      range: '',
-    },
-    {
-      title: 'Light 1',
-      isOn: false,
-      range: '',
-    },
-   
-   
-    {
-      title: 'Light 1',
-      isOn: true,
-      range: '',
-    },
-   
-    {
-      title: 'Light 1',
-      isOn: false,
-      range: '',
-    },
-    {
-      title: 'Light 1',
       isOn: false,
       range: '',
     },

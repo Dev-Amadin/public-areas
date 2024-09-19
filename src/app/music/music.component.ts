@@ -61,7 +61,7 @@ export class MusicComponent {
     },
     {
       location: 'Terrance',
-      volume: '300%',
+      volume: '30%',
       action : 'Music',
       icon: 'bi bi-volume-up-fill',
       muted: false

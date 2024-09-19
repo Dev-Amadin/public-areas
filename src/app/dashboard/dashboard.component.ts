@@ -20,12 +20,4 @@ export class DashboardComponent {
   audioService = inject(AudioService);
   displayService = inject(DisplayService);
   lightSceneService = inject(LightSceneService)
-
-
-  // this method is to toggle, showing when just 3 items are active
-  // it works only when the Light Scene card and the empty space with the KCP logo is shown are clicked
-  toggleItems(){
-    this.isLight = !this.isLight;
-  }
-
 }

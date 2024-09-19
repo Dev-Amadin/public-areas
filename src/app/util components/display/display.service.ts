@@ -40,7 +40,7 @@ export class DisplayService {
     {
       title: 'Projector 1',
       subText: 'Sky',
-      icon: 'bi bi-gear-fill',
+      icon: 'bi bi-projector-fill',
       isActive: false
     },
 

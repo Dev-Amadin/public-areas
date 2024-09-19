@@ -1,20 +1,48 @@
+// .card {
+//     color: #fff;
+//     background:url('../../../assets/img/music-background.png') no-repeat;
+//     background-size: cover;
+//     background-color: #383838;;
+//     border: none;
+// }
+
 .card {
-    color: #fff;
-    background:url('../../../assets/img/music-background.png') no-repeat;
+    min-height: 30rem;
+    border-radius: 2rem;
+    background: url('../../../assets/img/music-background.png') no-repeat;
     background-size: cover;
-    background-color: #383838;;
+    padding: 2rem;
+    color: #fff;
     border: none;
 }
 
-i{
-    font-size: 4.5rem;
+.forwards{
+    font-size: 3rem;
+    cursor: pointer;
 }
 
-.title{
+.play{
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+h5 {
     color: #05CD55;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+p {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.song-length {
+    color: #B2B2B2;
+    font-size: 1rem;
 }
 
 .form-range::-webkit-slider-thumb {
-    background: #BF40BF;
-    // font-size: 10rem;
-  }
+    background: #FFF;
+}

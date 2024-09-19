@@ -1,41 +1,45 @@
 .card {
+    min-height: 30rem;
+    border-radius: 2rem;
+    background: rgba(191, 64, 191, 0.15);
+    padding: 2rem;
     color: #fff;
-    background-color: #8095A8;
+    border: none;
 }
 
 .sub-card {
-    // display: flex;
-    // justify-content: space-between;
-    background-color: #F1ECFF;
-    border-radius: 5px;
-    padding: 1rem;
-    color: #977D95;
+    border-radius: 13.147px;
+    background: rgba(14, 14, 14, 0.32);
+    padding: 13.147px 16.903px;
+    color: #D2D2D2;
+    font-size: 1.56rem;
+    font-style: normal;
+    font-weight: 400;
 }
 
-.logo {
-    background: #524889;
+.sub-card:hover {
+    border: 1px solid #BF40BF;
+}
+
+.icon {
+    background: #2E1A2E;
     text-align: center;
     width: 5rem;
-    min-width: 3rem;
-    border-radius: 50%;
-    padding: 0.313rem;
-    font-size: 30px;
-    border: none;
+    height: 5rem;
+    border-radius: 15.9px;
+    padding: 0.8rem;
+    font-size: 1.9rem;
     color: #fff;
 }
 
-.btn-primary{
-    background-color: #524889;
-    border: none;
-    height: 43px;
+
+.progress {
+    height: 0.5rem;
+    --bs-progress-bg: #b6b6b618;
+    --bs-progress-bar-bg: #BF40BF;
+    border-radius: 2rem;
 }
 
-.progress{
-    height: 30px;
-    --bs-progress-bg: #D6CFFF;
-    --bs-progress-bar-bg: #4C4189;
-}
-
-.progress-disabled{
-    --bs-progress-bar-bg: #969696;
+.progress-bar {
+    border-radius: 1rem;
 }
