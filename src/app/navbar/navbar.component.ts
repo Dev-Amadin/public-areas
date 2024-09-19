@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './navbar.component.scss'
 })
 export class NavbarComponent {
+  
  logos = [
   {
     logo: 'bi bi-house-door-fill',
@@ -31,5 +32,11 @@ export class NavbarComponent {
     activeStyle: 'displays-active'
   }
  ]
+
+ toggleModal(event:string){
+  const dialog = document.querySelector('dialog');
+  event == 'open'? dialog?.showModal() : dialog?.close();
+}
+
 
 }

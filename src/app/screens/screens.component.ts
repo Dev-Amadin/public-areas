@@ -1,5 +1,4 @@
 import { Component, inject } from '@angular/core';
-import { Display } from '../util components/display/display';
 import { DisplayService } from '../util components/display/display.service';
 import { CommonModule } from '@angular/common';
 
@@ -12,5 +11,7 @@ import { CommonModule } from '@angular/common';
 })
 export class ScreensComponent {
   displayService = inject(DisplayService);
+
+
 
 }

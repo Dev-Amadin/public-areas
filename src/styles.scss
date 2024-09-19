@@ -103,3 +103,29 @@ video {
     height: auto;
     display: block;
 }
+
+dialog {
+    z-index: 10;
+    border-radius: 20px;
+    border: 1px solid #303030;
+    background: #454545;
+    min-height: 30rem;
+    min-width: 30rem;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    padding: 1rem;
+}
+
+dialog::backdrop {
+    background: rgba(33, 33, 33, 0.80);
+    box-shadow: 0px 24.276px 182.068px 0px rgba(178, 178, 178, 0.15);
+    backdrop-filter: blur(10px);
+}
+
+.close-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    float: right;
+}

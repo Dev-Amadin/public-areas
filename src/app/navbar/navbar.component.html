@@ -18,7 +18,7 @@
               ><i [class]="item.logo"></i>
             </a>
           }
-          <a class="qr">
+          <a class="qr" (click)="toggleModal('open')">
             <i class="bi bi-qr-code"></i>
           </a>
       
@@ -28,3 +28,13 @@
       </div>
   </div>
 </nav>
+
+<dialog>
+  <i class="bi bi-x-circle close-icon" (click)="toggleModal('close')"></i>
+  <div class="text-center">
+    <div class="qr-scan">
+      <i class="bi bi-qr-code"></i>
+    </div>
+    <div>Scan to connect</div>
+  </div>
+</dialog>

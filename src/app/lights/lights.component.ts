@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './lights.component.scss'
 })
 export class LightsComponent {
+  
 
   scenes = [
     {
